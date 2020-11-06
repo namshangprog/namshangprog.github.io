@@ -22,7 +22,7 @@ header .logo a{
     height: 180px;
     position: relative;
     text-indent: -9999999999px;
-    width: 150px;
+    width: 180px;
     top: 20px;
 }
 
@@ -38,4 +38,5 @@ li{
     color: rgb(219, 243, 243);
     list-style: none;
     display: inline-block;
+    margin: 5px 50px 30px 50px;
 }
