@@ -6,7 +6,7 @@ body{
 
 header{
     background: rgb(128, 109, 128);
-    padding: 80px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -15,15 +15,23 @@ header{
 }
 
 header .logo a{
-    background-image: url(images/page-icon.jpg);
+    background-image: url(images/page-icon.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
     display: inline-block;
-    text-indent: -99999999px;
-    width: 300px;
-    height: 80px;
+    height: 180px;
+    position: relative;
+    text-indent: -9999999999px;
+    width: 150px;
+    top: 20px;
 }
+
 ul{
+    margin-top: 0px;
+    padding-top: 0px;
     list-style: none;
-    font-family: 'Josefin' , 'Sans'
+    font-family: 'Josefin' , 'Sans';
+    font-size: 22px;
 }
 
 li{
