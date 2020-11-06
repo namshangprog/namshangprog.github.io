@@ -1,0 +1,33 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: rgb(128, 109, 128);
+    padding: 80px;
+    text-align: center;
+}
+
+.nav{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header .logo a{
+    background-image: url(images/page-icon.jpg);
+    display: inline-block;
+    text-indent: -99999999px;
+    width: 300px;
+    height: 80px;
+}
+ul{
+    list-style: none;
+    font-family: 'Josefin' , 'Sans'
+}
+
+li{
+    color: rgb(219, 243, 243);
+    list-style: none;
+    display: inline-block;
+}
