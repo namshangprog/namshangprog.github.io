@@ -6,6 +6,9 @@ body{
 
 header{
     background: rgb(128, 109, 128);
+    background-image: url("images/page-banner.jpg");
+    background-size: 100%;
+    background-position: central;
     padding: 10px;
     text-align: center;
 }
@@ -23,7 +26,8 @@ header .logo a{
     position: relative;
     text-indent: -9999999999px;
     width: 180px;
-    top: 20px;
+    top: 30px;
+    margin-bottom: -15px;
 }
 
 ul{
@@ -38,5 +42,19 @@ li{
     color: rgb(219, 243, 243);
     list-style: none;
     display: inline-block;
-    margin: 5px 50px 30px 50px;
+    margin: 5px 10px 30px 10px;
+}
+
+.banner-name{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-name2{
+    font-size: 33px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #CCF0F5;
 }
