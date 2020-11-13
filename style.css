@@ -2,6 +2,7 @@ body{
     font-family: 'PT Serif', serif;
     margin: 0px;
     padding: 0px;
+    height: 1000px;
 }
 
 header{
@@ -78,7 +79,7 @@ header .logo a{
 .side-info{
     margin-top: 40px;
     font-size: 35px;
-    margin-right: 0px;
+    margin: 80px 0px 0px 150px;
     color: grey;
 }
 
