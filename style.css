@@ -43,6 +43,20 @@ header .logo a{
     margin: 5px 10px 30px 10px;
 }
 
+.nav a{
+    text-decoration: none;
+    color: rgb(219, 243, 243);
+    
+}
+
+.nav a:hover{
+    color: #A7ECF5;
+    -webkit-transition: all 0.33s ease-in-out;
+    -moz-transition: all 0.33s ease-in-out;
+    -o-transition: all 0.33s ease-in-out;
+    transition: all 0.33s ease-in-out;
+  }
+
 .banner-name{
     color: white;
     font-size: 50px;
