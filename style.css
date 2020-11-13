@@ -30,17 +30,14 @@ header .logo a{
     margin-bottom: -15px;
 }
 
-ul{
+.nav {
     margin-top: 0px;
     padding-top: 0px;
-    list-style: none;
-    font-family: 'Josefin' , 'Sans';
-    font-size: 22px;
 }
 
-li{
+.nav li{
     color: rgb(219, 243, 243);
-    list-style: none;
+    font-size: 22px;
     display: inline-block;
     margin: 5px 10px 30px 10px;
 }
@@ -82,8 +79,16 @@ li{
     margin-top: 40px;
     font-size: 35px;
     margin-right: 0px;
+    color: grey;
 }
 
-.side-info {
-    color: grey;
+.side-info h6{
+    margin-bottom: 5px;
+}
+
+.side-info ul{
+    list-style-type:none;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
 }
