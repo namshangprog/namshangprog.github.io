@@ -1,0 +1,114 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+
+header{
+    background: rgb(128, 109, 128);
+    background-image: url("../images/page-banner.jpg");
+    background-size: 100%;
+    background-position: central;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header .logo a{
+    background-image: url(../images/page-icon.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 180px;
+    position: relative;
+    text-indent: -9999999999px;
+    width: 180px;
+    top: 30px;
+    margin-bottom: -15px;
+}
+
+.nav {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nav li{
+    padding: 0px 20px 0px 20px;
+    color: rgb(219, 243, 243);
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 10px 30px 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(219, 243, 243);
+    transition: transform .2s;
+    
+}
+
+.nav a:hover{
+    color: #A7ECF5;
+    -webkit-transition: all 0.33s ease-in-out;
+    -moz-transition: all 0.33s ease-in-out;
+    -o-transition: all 0.33s ease-in-out;
+    transition: all 0.33s ease-in-out;
+  }
+
+.banner-name{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-name2{
+    font-size: 33px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #CCF0F5;
+}
+
+.index-section {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.about-me{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 600px;
+}
+
+.about-me .about-me-h1 {
+    color: gray;
+    font-size: 35px;
+}
+
+.about-me .about-me-p {
+    font-size: 19px;
+}
+
+.side-info{
+    margin-top: 40px;
+    margin-right: 300px;
+    font-size: 35px;
+    margin: 80px 0px 0px 150px;
+    color: grey;
+}
+
+.side-info h6{
+    margin-bottom: 5px;
+}
+
+.side-info ul{
+    list-style-type:none;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
