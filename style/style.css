@@ -1,114 +1,51 @@
-body{
-    font-family: 'PT Serif', serif;
-    margin: 0px;
-    padding: 0px;
-    height: 1000px;
-}
-
-header{
-    background: rgb(128, 109, 128);
-    background-image: url("../images/page-banner.jpg");
-    background-size: 100%;
-    background-position: central;
-    padding: 10px;
-    text-align: center;
-}
-
-.nav{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-header .logo a{
-    background-image: url(../images/page-icon.png);
-    background-size: 180px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 180px;
-    position: relative;
-    text-indent: -9999999999px;
-    width: 180px;
-    top: 30px;
-    margin-bottom: -15px;
-}
-
-.nav {
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.nav li{
-    padding: 0px 20px 0px 20px;
-    color: rgb(219, 243, 243);
-    font-size: 22px;
-    display: inline-block;
-    margin: 20px 10px 30px 10px;
-}
-
-.nav a{
-    text-decoration: none;
-    color: rgb(219, 243, 243);
-    transition: transform .2s;
-    
-}
-
-.nav a:hover{
-    color: #A7ECF5;
-    -webkit-transition: all 0.33s ease-in-out;
-    -moz-transition: all 0.33s ease-in-out;
-    -o-transition: all 0.33s ease-in-out;
-    transition: all 0.33s ease-in-out;
-  }
-
-.banner-name{
-    color: white;
-    font-size: 50px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.banner-name2{
-    font-size: 33px;
-    margin-top: 3px;
-    margin-bottom: 15px;
-    color: #CCF0F5;
-}
-
-.index-section {
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-}
-
-.about-me{
-    margin-top: 40px;
-    margin-left: 300px;
-    width: 600px;
-}
-
-.about-me .about-me-h1 {
-    color: gray;
-    font-size: 35px;
-}
-
-.about-me .about-me-p {
-    font-size: 19px;
-}
-
-.side-info{
-    margin-top: 40px;
-    margin-right: 300px;
-    font-size: 35px;
-    margin: 80px 0px 0px 150px;
-    color: grey;
-}
-
-.side-info h6{
-    margin-bottom: 5px;
-}
-
-.side-info ul{
-    list-style-type:none;
-    font-size: 16px;
-    padding: 0px;
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Namshang's Page</title>
+    </head>
+    <body>
+        <header>
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li>PROJECTS</li>
+                <li class="logo"><a href="index.html"><em>MY LOGO</em></a></li>
+                <li>RESUME</li>
+                <li>CONTACT</li>
+            </ul>
+            <p class="banner-name">Namshang Limbu</p>
+            <p class="banner-name2">Aspiring Web Developer</p>
+        </header>
+        <section>
+            <div class="index-section">
+                
+                <div class="about-me">
+                    <h1 class="about-me-h1">About Me</h1>
+                    <p class="about-me-p">As an aspiring web developer, I am currently working on my own projects to improve my portfolio. Being a fickler for the technical side of design, I eventually plan to move on to being a full-stack developer. <br/>
+                        <br/>Having first studied Computer Science at New York Institute of Technology (NYIT), I transferred to the University at Buffalo to continue my studies. With my background in computer science and my thirst for new concepts, I am able to learn new lanuages and programs fairly quickly.<br/>
+                        <br/> For more info on any projects I have done, you can head over to my <a href="/css/">projects</a> page.
+                    </p>
+                </div>
+                <div class="side-info">
+                    <div>
+                         <h6>Skills</h6>
+                         <ul>
+                             <li>Java</li>
+                             <li>HTML/CSS</li>
+                             <li>Javascript</li>
+                         </ul>
+                    </div>
+                    <div>
+                        <h6>Projects</h6>
+                        <ul>
+                            <li>Project 1</li>
+                            <li>Project 2</li>
+                            <li>More projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
